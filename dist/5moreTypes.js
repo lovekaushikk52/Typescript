@@ -6,7 +6,7 @@ let bookString = '{"name":"who moved my cheese"}';
 let bookObject = JSON.parse(bookString); //forceful assertion
 console.log(bookObject);
 // typescript contains datatype of mostly everything
-// const inputElement=document.getElementById("username")as HTMLInputElement //type assertion
+const inputElement = document.getElementById("username"); //type assertion
 //difference between unknown and any
 let value;
 value = "rishu";
